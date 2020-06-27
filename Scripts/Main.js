@@ -1,0 +1,1 @@
+const cotainers = document.querySelectorAll('.container');
