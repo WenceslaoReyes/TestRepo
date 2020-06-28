@@ -1,0 +1,18 @@
+git config --global user.[name, email] wences
+git init -Create a local repo / initialize a repository
+git add [.] -Send a file to staging area
+git status -Show the repo's status
+git commit -m  -Create a commit with all the file in stage area
+git diff check differences between previous commit and modified version.
+git reset HEAD fileName Remove a file from staging area
+git checkout . Go to the previous commit
+git checkout [hash] Go to the specified commit
+git switch - Return to the time where all previous commits are done
+git log Show a log or history of commits
+
+git remote add origin https://github.com/WenceslaoReyes/TestRepo.git - Synchronize local repo with remote one.
+git push -u origin master - push the commits to the repo.
+git branch -List all the braches in the repo and identify in which one are you.
+git branch [name] Create a branch
+git checkout [branch name] Change the branch you are.
+
